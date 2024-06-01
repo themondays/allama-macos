@@ -1,0 +1,99 @@
+# Xcode
+#
+.build/
+.derived/
+.installed/
+.xcworkspace/
+xcuserdata/
+
+# User-specific files
+#
+*.swp
+*.xcuserstate
+
+# Build generated
+#
+build/
+DerivedData/
+*.log
+
+# Dependencies
+#
+Carthage/Build
+Carthage/Checkouts
+Carthage/Manifest.json
+Carthage/Cartfile.resolved
+Carthage/Cartfile
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+
+# Fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Swift Package Manager
+#
+Packages/
+.swiftpm/xcode/package.resolved
+
+# IDE support
+#
+.idea/
+.vscode/
+
+# Archives
+#
+*.xcarchive
+*.ipa
+
+# Swift Playgrounds
+#
+playground.xcworkspace
+
+# SwiftUI Previews
+#
+.swiftpm/
+
+# Other
+#
+!default.realm
+!default.realm.lock
+*.plist
+*.db
+*.sqlite
+
+# Local build
+#
+*.o
+*.pyc
+*.pyo
+*.pyd
+*.py[co]
+*.pyo
+__pycache__/
+*.so
+*.dylib
+*.out
+*.app
+*.snap
+*.crx
+
+# macOS
+#
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+#
+lost+found/
+
